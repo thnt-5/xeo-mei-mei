@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    background: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    user-select: none;
+    font-family: Arial;
+}
+
+.container {
+    text-align: center;
+}
+
+#character, #characterVideo {
+    width: 250px;
+    height: auto;
+    cursor: pointer;
+    touch-action: manipulation;
+    display: block;
+    margin: 0 auto;
+}
+
+.counter-box {
+    margin-top: 15px;
+    font-size: 22px;
+}
+
+#shareBtn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+    background: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+#shareBtn:hover {
+    background: #45a049;
+}
